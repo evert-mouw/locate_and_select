@@ -77,6 +77,7 @@ if xhost >& /dev/null
 	then
 	ROFIMAGIC="rofi -dmenu -i
 		-window-title 'File Search'
+		-normal-window
 		-theme $ROFITHEME
 		-theme-str 'window {height: 80%; width: 90%;}'"
 	SELECTION=$(echo "$RESULTS" | eval $ROFIMAGIC)

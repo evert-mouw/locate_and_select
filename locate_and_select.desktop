@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Locate and Select
+Description=Find files using locate, select a result, and open it in a file manager.
+Exec=/home/evert/bin/locate_and_select.sh
+#Icon=face-glasses
+Icon=system-search
+Categories=Utility;
+Terminal=false
+StartupNotify=false
